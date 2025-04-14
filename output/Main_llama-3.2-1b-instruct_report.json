@@ -1,0 +1,22 @@
+[
+  {
+    bug: "null pointer dereference in nested class",
+    line: 4,
+    reason: "The Nested class is declared without initialization",
+  },
+  {
+    bug: "out of bounds array index error",
+    line: 6,
+    reason: "Array length should not be accessed outside the bounds of the array",
+  },
+  {
+    bug: "integer overflow",
+    line: 7,
+    reason: "Increasing an integer by one is not a valid operation",
+  },
+  {
+    bug: "infinite loop",
+    line: 9,
+    reason: "The for loop will run indefinitely due to lack of conditions",
+  },
+]

@@ -1,0 +1,5 @@
+lmstudio
+pydantic
+tqdm
+tabulate
+json5

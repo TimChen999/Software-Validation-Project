@@ -1,0 +1,27 @@
+[
+  {
+    bug: "Static nested class Nested has a private static field 'name' with no explicit initialization.",
+    line: 5,
+    reason: "The field 'name' is never initialized in the static initializer block. Accessing it may result in null.",
+  },
+  {
+    bug: "Array index out of bounds at line 12",
+    line: 12,
+    reason: "Attempting to access list[10] when the array length is 10 (indices 0-9) causes ArrayIndexOutOfBoundsException.",
+  },
+  {
+    bug: "Integer overflow test doesn't handle overflow correctly",
+    line: 15,
+    reason: "Incrementing Integer.MAX_VALUE results in integer overflow, not an exception, because Java's int is a signed 32-bit integer.",
+  },
+  {
+    bug: "Infinite loop at line 18",
+    line: 18,
+    reason: "The for loop condition 'i < 5' always evaluates to true since there's no increment operation inside the loop.",
+  },
+  {
+    bug: "Unhandled RuntimeException exception",
+    line: 20,
+    reason: "The RuntimeException is thrown but not caught or handled in the main method.",
+  },
+]

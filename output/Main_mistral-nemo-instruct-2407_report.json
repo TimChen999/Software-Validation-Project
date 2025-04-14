@@ -1,0 +1,27 @@
+[
+  {
+    "bug": "Uninitialized object access",
+    "line": 6,
+    "reason": "Nested.name is not initialized",
+  },
+  {
+    "bug": "Array index out of bounds",
+    "line": 13,
+    "reason": "list length is 10, index 10 is out of bounds",
+  },
+  {
+    "bug": "Integer overflow",
+    "line": 17,
+    "reason": "Trying to increment Integer.MAX_VALUE",
+  },
+  {
+    "bug": "Infinite loop",
+    "line": 21,
+    "reason": "Missing break condition in for loop",
+  },
+  {
+    "bug": "Unhandled exception",
+    "line": 25,
+    "reason": "Exception thrown without being caught or declared",
+  },
+]
