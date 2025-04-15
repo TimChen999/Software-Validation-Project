@@ -26,6 +26,21 @@ PROMPT_TEMPLATE = (
     '- \"reason\": A brief explanation of why it is a bug.\n\n'
     "⚠️ Do NOT include any markdown formatting, no ```json, no <think>, and no extra explanations.\n"
     "Your entire response must be ONLY a raw JSON array. No intro, no outro.\n\n"
+    "If there are multiple bugs, include them all in the array.\n"
+    "If there are no bugs, return an empty array: []\n\n"
+    "If you encounter any errors or exceptions, return an empty array: []\n\n"
+    "If you cannot analyze the code, return an empty array: []\n\n"
+    "If the code is too long, return an empty array: []\n\n"
+    "PLEASE remember to close the array with a ]\n\n"
+    "Please use the corresponding closes bracket for the opening bracket.\n\n"
+    "Use the following brackets for the JSON array:\n"
+    "Use [ for the opening bracket\n"
+    "Use ] for the closing bracket\n\n"
+    "Use opening curly braces for the JSON objects:\n"
+    "Use closing curly braces for the JSON objects:\n\n"
+    "The JSON array should be a valid JSON array.\n\n"
+    "The JSON array should be the ONLY thing in your response.\n\n"
+    "Avoid using trailing commas in the JSON.\n\n"
     "Here is the Java code to analyze:\n{code}"
 )
 
@@ -90,7 +105,7 @@ for model_name in MODELS:
                     f"{java_file.stem}_{model_name.replace('/', '_')}_report.json"
                 with output_path.open("w") as f:
                     json5.dump([r.model_dump()
-                                for r in bug_reports], f, indent=2, quote_keys=True)
+                                for r in bug_reports], f, indent=2, quote_keys=True, trailing_commas=False)
 
                 summary[model_name]["success"] += 1
             except Exception as e:

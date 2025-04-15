@@ -1,0 +1,27 @@
+[
+  {
+    "bug": "NullPointerException: nestedClass is null",
+    "line": 7,
+    "reason": "The `nestedClass` variable is not initialized before being used in the `printName()` method."
+  },
+  {
+    "bug": "ArrayIndexOutOfBoundsException",
+    "line": 12,
+    "reason": "Accessing an array element (index 10) that is beyond the bounds of the array (0-9)."
+  },
+  {
+    "bug": "Integer overflow",
+    "line": 17,
+    "reason": "Incrementing `maxInt` which exceeds its maximum value, leading to unexpected behavior."
+  },
+  {
+    "bug": "Infinite loop",
+    "line": 23,
+    "reason": "The loop condition `i < 5` is always true because `i` is never incremented within the loop body. This creates an infinite loop."
+  },
+  {
+    "bug": "Unhandled exception",
+    "line": 28,
+    "reason": "A `RuntimeException` is thrown but not caught or handled, causing the program to terminate abruptly."
+  }
+]
