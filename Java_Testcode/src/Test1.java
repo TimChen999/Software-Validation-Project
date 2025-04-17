@@ -1,4 +1,4 @@
-public class Main {
+public class Test1 {
     //Test functions and class
     static class Nested{
         private static String name;
@@ -11,23 +11,18 @@ public class Main {
     static int[] list = new int[10];
 
     public static void main(String[] args) {
-        //Invalid value test (nested is null)
         nestedClass.printName();
 
-        //Out of bounds error
         list[10] = 10;
 
-        //Integer overflow
         int maxInt = Integer.MAX_VALUE;
         maxInt++;
         System.out.println("Overflow " + maxInt);
 
-        //Infinite loop
         for(int i = 0; i < 5;){
             System.out.println("i = " + i);
         }
 
-        //Unhandled exception
         throw new RuntimeException("Unhandled exception");
     }
 }
