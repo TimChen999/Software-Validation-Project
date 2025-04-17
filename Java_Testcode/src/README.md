@@ -1,5 +1,6 @@
 ChatGPT - 2-11
 Claude - 12-16
+Gemini - 17 - 20
 
 
 ## Test1.java ##
@@ -96,3 +97,27 @@ Claude - 12-16
 19. Lines 173-174: No validation for invalid date format
 20. Line 180: String comparison with == will fail due to new String object
 21. Line 186: Will cause NullPointerException with non-existent user
+
+## Test17.java ##
+5 - Subtraction instead of addition
+9 - divide by zero
+20 - negative number factorial
+
+## Test18.java ##
+// Bug at line 8: Loop condition in constructor should be '< size', causing an ArrayIndexOutOfBoundsException.
+// Bug at line 14: Loop condition in findMax should be '< data.length', causing an ArrayIndexOutOfBoundsException.
+// Bug at line 22: The condition 'data[i] / 2 == 0' will incorrectly identify odd numbers as even (integer division).
+// Bug at line 30: The 'reversed' array is initialized with a size one greater than 'data', potentially causing issues later.
+// Bug at line 37: The condition in 'setValue' should be 'index >= 0' to allow setting the first element.
+
+## Test19.java ##
+// Bug at line 6: Loop in 'concatenate' starts from index 1, skipping the first character of str1, and causes an StringIndexOutOfBoundsException at the end.
+// Bug at line 12: The 'equalsIgnoreCase' implementation is incorrect; it should use 'text.toLowerCase().contains(query.toLowerCase())'.
+// Bug at line 19 & 20: The index calculation in 'reverseString' is off by one, leading to incorrect reversal and potentially an StringIndexOutOfBoundsException.
+// Bug at line 26: The 'count' is initialized to 1, leading to an incorrect count, and the assignment operator '=' is used instead of the equality operator '=='.
+// Bug at line 32: The 'trimAndLower' method incorrectly converts the trimmed string to uppercase instead of lowercase.
+
+## Test20.java ##
+// Bug at line 27: Loop condition in 'filterEven' should be '< dataList.size()', causing an IndexOutOfBoundsException.
+// Bug at line 35: Assignment operator '=' used instead of equality operator '==' in 'containsValue'.
+// Bug at line 39: Setting dataList to null in 'clearData' might lead to NullPointerExceptions if the object is used later. While not immediately causing an error in this method, it's a potential bug.
