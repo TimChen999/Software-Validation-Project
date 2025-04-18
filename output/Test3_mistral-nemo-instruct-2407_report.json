@@ -1,0 +1,12 @@
+[
+  {
+    "bug": "Null Pointer Exception",
+    "line": 3,
+    "reason": "Accessing length of a null string"
+  },
+  {
+    "bug": "Potential Logical Error",
+    "line": 4,
+    "reason": "Checking if the user is not empty when it might be null"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Exposure of mutable object to external code",
+    "line": 16,
+    "reason": "External code can mutate the internal state of the List"
+  }
+]

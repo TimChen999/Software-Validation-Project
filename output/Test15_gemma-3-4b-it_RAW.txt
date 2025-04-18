@@ -1,0 +1,24 @@
+```json
+[
+  {
+    "bug": "The `bubbleSort` method does not handle already sorted arrays efficiently.",
+    "line": 16,
+    "reason": "The nested loops iterate through the entire array even if it's already sorted, leading to unnecessary comparisons and swaps."
+  },
+  {
+    "bug": "The `findDuplicates` method has a time complexity of O(n^2) due to the nested loops.",
+    "line": 74,
+    "reason": "Using nested loops to find duplicates is inefficient for larger arrays. A more efficient approach would involve using a hash map."
+  },
+  {
+    "bug": "The `maxSubarraySum` method has an off-by-one error in the loop condition.",
+    "line": 126,
+    "reason": "The loop iterates one element too far (up to arr.length), causing an out-of-bounds exception when accessing arr[arr.length]."
+  },
+  {
+    "bug": "The `quickSort` method does not handle duplicate pivot values.",
+    "line": 178,
+    "reason": "If the pivot value is duplicated in the array, the partition function may not correctly divide the array into two sub-arrays, leading to infinite recursion or incorrect sorting."
+  }
+]
+```

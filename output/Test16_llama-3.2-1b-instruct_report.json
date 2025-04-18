@@ -1,0 +1,12 @@
+[
+  {
+    "bug": "Inadequate validation and error handling",
+    "line": 1,
+    "reason": "No null checks for parameters"
+  },
+  {
+    "bug": "Weak email validation",
+    "line": 2,
+    "reason": "Not using lenient(false)"
+  }
+]

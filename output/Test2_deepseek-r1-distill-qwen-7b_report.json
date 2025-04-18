@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Loop runs one extra iteration beyond array bounds",
+    "line": 4,
+    "reason": "The for loop condition i <= numbers.length attempts to access an out-of-bounds array element. The condition should be i < numbers.length."
+  }
+]

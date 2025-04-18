@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Lack of synchronization between depositTask and withdrawTask leading to potential race conditions",
+    "line": 12,
+    "reason": "Using multiple threads without proper synchronization can lead to inconsistent states or exceptions when accessing shared variables."
+  }
+]

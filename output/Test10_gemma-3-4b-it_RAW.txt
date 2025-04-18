@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Potential race condition",
+    "line": 34,
+    "reason": "Multiple threads (t1 and t2) are concurrently accessing and modifying the 'balance' variable without any synchronization mechanisms. This can lead to an incorrect final balance due to interleaved operations."
+  }
+]

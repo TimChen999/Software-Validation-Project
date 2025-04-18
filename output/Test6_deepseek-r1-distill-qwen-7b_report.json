@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Using == to compare Strings compares object references rather than their content.",
+    "line": 5,
+    "reason": "Strings should be compared using String.equals() or .equals() method."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "bug": "NullPointerException due to accessing user.length() on a null reference",
+    "line": 4,
+    "reason": "Calling length() on null causes runtime error."
+  },
+  {
+    "bug": "Condition always fails because user is initialized as null",
+    "line": 3,
+    "reason": "user remains null, so the check for non-empty string never occurs."
+  }
+]

@@ -1,0 +1,5 @@
+[
+{"bug":"IndexOutOfBoundsException","line":1,"reason":"Array index out of bounds"}
+{"bug":"ArrayIndexOutOfBoundsException","line":28,"reason":"Trying to access index 0 in array data when length is 4"}
+{"bug":"ArrayIndexOutOfBoundsException","line":30,"reason":"Trying to set value at index 3 which is out of bounds"}
+{"bug":"IndexOutOfBoundsException","line":31,"reason":"Trying to access index 2 in array data which is out of bounds"}

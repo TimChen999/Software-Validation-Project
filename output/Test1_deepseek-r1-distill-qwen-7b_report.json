@@ -1,0 +1,12 @@
+[
+  {
+    "bug": "Static nested class 'Nested' has a static String field 'name' that is not initialized before use.",
+    "line": 4,
+    "reason": "The variable 'name' in the static nested class Nested is declared as static but never initialized, leading to a NullPointerException when accessed."
+  },
+  {
+    "bug": "Array index out of bounds in main method.",
+    "line": 6,
+    "reason": "The array list has length 10 (indices 0-9), but the code attempts to assign at index 10, causing an ArrayIndexOutOfBoundsException."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "bug": "In the factorial method",
+    "line": 14,
+    "reason": "The loop should iterate from 1 to n-1 instead of i <= n"
+  },
+  {
+    "bug": "In the add method",
+    "line": 4,
+    "reason": "The return statement is not followed by an expression"
+  }
+]

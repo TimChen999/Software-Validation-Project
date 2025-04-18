@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "NullPointerException",
+    "line": 3,
+    "reason": "Attempting to call `length()` on a null object (user)."
+  }
+]

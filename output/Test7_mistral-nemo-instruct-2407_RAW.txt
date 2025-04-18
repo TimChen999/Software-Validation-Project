@@ -1,0 +1,4 @@
+[
+  {"bug": "Potential Null Pointer Exception", "line": 4, "reason": "FileReader is initialized to null and then used without checking if it was successfully created."},
+  {"bug": "Resource Leak", "line": 3, "reason": "FileReader is not properly closed when an exception occurs, leading to a resource leak."}
+]

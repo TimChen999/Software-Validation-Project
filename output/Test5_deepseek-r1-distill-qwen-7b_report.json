@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "The while loop will run infinitely because there's no condition to stop when i becomes negative.",
+    "line": 5,
+    "reason": "The loop starts at 0 and increments by 1 each time, so it will never exit."
+  }
+]

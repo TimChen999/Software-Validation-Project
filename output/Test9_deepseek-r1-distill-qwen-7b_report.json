@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Potential NullPointerException in authenticate method when authenticating a user that doesn't exist.",
+    "line": 7,
+    "reason": "The method may throw a NullPointerException if the username isn't found, as it will attempt to call .equals() on a null password."
+  }
+]

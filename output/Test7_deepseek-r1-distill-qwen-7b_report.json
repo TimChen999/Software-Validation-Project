@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Missing exception handling for IOException",
+    "line": 5,
+    "reason": "The code does not handle IOExceptions thrown by FileReader and its read() method."
+  }
+]

@@ -1,0 +1,3 @@
+[{"bug":"Infinite loop","line":5,"reason":"The condition 'i >= 0' will always be true"}]
+
+[""]

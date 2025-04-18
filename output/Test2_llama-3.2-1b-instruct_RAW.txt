@@ -1,0 +1,1 @@
+[{"bug":"ArrayIndexOutOfBoundsException","line":1,"reason":"should use less than instead of greater than","code":"for (int i = 0; i < numbers.length; i++)"}]

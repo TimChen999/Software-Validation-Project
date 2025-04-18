@@ -1,0 +1,12 @@
+[
+  {
+    "bug": "ArrayIndexOutOfBoundsException: Array index is out of range.",
+    "line": 3,
+    "reason": "The array index goes beyond the bounds of the array."
+  },
+  {
+    "bug": "ArrayIndexOutOfBoundsException: Array index is out of range.",
+    "line": 6,
+    "reason": "The array index goes beyond the bounds of the array."
+  }
+]

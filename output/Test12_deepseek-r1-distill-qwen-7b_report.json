@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "The `deleteRec` method incorrectly modifies the tree structure when deleting a node with two children.",
+    "line": 25,
+    "reason": "After replacing root.data with the minimum value from the right subtree, attempting to delete this new value may not correctly remove it or could cause an infinite loop."
+  }
+]

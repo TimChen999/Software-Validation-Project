@@ -1,0 +1,2 @@
+[{"bug":"Type mismatch for return type", "line":1,"reason":"Expected return type 'void' but got 'int"}}]
+[{"bug":"Unnecessary semicolon at the end of statement", "line":9,"reason":"Extra semicolon is not allowed in Java code"}]

@@ -1,0 +1,1 @@
+[{"bug":"Comparing string equality using '==' instead of '.equals()'.","line":5,"reason":"'==' compares the memory references, not the actual values."}]

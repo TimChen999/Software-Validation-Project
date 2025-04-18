@@ -1,0 +1,12 @@
+[
+{
+"bug": "Off-by-one error in concatenate loop.",
+"line": 8,
+"reason": "The loop iterates from i = 1 to str1.length() inclusive, which means it attempts to access str1.charAt(str1.length()) resulting in an ArrayIndexOutOfBoundsException."
+},
+{
+"bug": "Incorrect comparison operator in countOccurrences.",
+"line": 15,
+"reason": "The code uses the assignment operator '=' instead of the equality operator '==' in the if condition. This will always evaluate to true and cause incorrect counting."
+}
+]

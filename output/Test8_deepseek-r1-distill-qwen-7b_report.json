@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Division by zero",
+    "line": 4,
+    "reason": "Attempting to divide by zero in line 4 causes an ArithmeticException."
+  }
+]

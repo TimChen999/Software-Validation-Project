@@ -1,0 +1,2313 @@
+[{
+  "bug": "No explicit null check for 'b' in the string comparison",
+  "line": 4,
+  "reason": "In Java, a String is never null. However, if you pass a null value to a method expecting a String, it will throw a NullPointerException.",
+  "bug": "String literal must be enclosed within double quotes or single quotes",
+  "line": 3,
+  "reason": "The string literals in the code are not properly enclosed within quotes."
+}]
+
+[{
+  "bug": "Unnecessary semicolon after 'a = new String("test")',
+  "line": 2,
+  "reason": "In Java, a semicolon is used to separate statements. However, here it's being used as an operator.",
+  "bug": "Missing colon before the return statement in main",
+  "line": 3,
+  "reason": "The main method should be declared with a return type of void."
+}]
+
+[{
+  "bug": "Unnecessary semicolon after 'if (a == b) {',
+  "line": 1,
+  "reason": "In Java, if statements must end with a colon.",
+  "bug": "String literal must be enclosed within double quotes or single quotes",
+  "line": 3,
+  "reason": "The string literals in the code are not properly enclosed within quotes."
+}]]
+
+[{
+  "bug": "",
+  "line": 0,
+  "reason": "Code is too long (more than 50 characters)",
+  "bug": ""
+}]
+
+[{
+  "bug": "",
+  "line": 5,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 6,
+  "reason": "The String class does not have a constructor that takes no parameters.",
+  "bug": "Missing colon before the return statement in main"
+}]
+
+[{
+  "bug": "",
+  "line": 7,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 8,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 9,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 10,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 11,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 12,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 13,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 14,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 15,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 16,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 17,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 18,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 19,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 20,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 21,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 22,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 23,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 24,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 25,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 26,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 27,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 28,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 29,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 30,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 31,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 32,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 33,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 34,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 35,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 36,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 37,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 38,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 39,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 40,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 41,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 42,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 43,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 44,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 45,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 46,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 47,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 48,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 49,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 50,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 51,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 52,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 53,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 54,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 55,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 56,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 57,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 58,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 59,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 60,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 61,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 62,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 63,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 64,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 65,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 66,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 67,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 68,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 69,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 70,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 71,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 72,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 73,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 74,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 75,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 76,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 77,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 78,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 79,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 80,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 81,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 82,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 83,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 84,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 85,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 86,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 87,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 88,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 89,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 90,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 91,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 92,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 93,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 94,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 95,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 96,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 97,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 98,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 99,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 100,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 101,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 102,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 103,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 104,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 105,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 106,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 107,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 108,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 109,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 110,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 111,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 112,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 113,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 114,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 115,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 116,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 117,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 118,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 119,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 120,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 121,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 122,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 123,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 124,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 125,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 126,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 127,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 128,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 129,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 130,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 131,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 132,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 133,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 134,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 135,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 136,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 137,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 138,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 139,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 140,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 141,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 142,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 143,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 144,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 145,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 146,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 147,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 148,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 149,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 150,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 151,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 152,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 153,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 154,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 155,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 156,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 157,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 158,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 159,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 160,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 161,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 162,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 163,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 164,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 165,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 166,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 167,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 168,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 169,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 170,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 171,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 172,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 173,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 174,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 175,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 176,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 177,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 178,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 179,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 180,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 181,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 182,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 183,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 184,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 185,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 186,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 187,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 188,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 189,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 190,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 191,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 192,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 193,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 194,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 195,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 196,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 197,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 198,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 199,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 200,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 201,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 202,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 203,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 204,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 205,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 206,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 207,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 208,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 209,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 210,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 211,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 212,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 213,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 214,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 215,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 216,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 217,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 218,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 219,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 220,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 221,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 222,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 223,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 224,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 225,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 226,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 227,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 228,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 229,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 230,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 231,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 232,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 233,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 234,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 235,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 236,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 237,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 238,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 239,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 240,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 241,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 242,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 243,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 244,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 245,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 246,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 247,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 248,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 249,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 250,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 251,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 252,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 253,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 254,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 255,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 256,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 257,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 258,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 259,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 260,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 261,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 262,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 263,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 264,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 265,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 266,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 267,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 268,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 269,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 270,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 271,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 272,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 273,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 274,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 275,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 276,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 277,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 278,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 279,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 280,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 281,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 282,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 283,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 284,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 285,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 286,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 287,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 288,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 289,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 290,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 291,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 292,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 293,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 294,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 295,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 296,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 297,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 298,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 299,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 300,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 301,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 302,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 303,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 304,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 305,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 306,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 307,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 308,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 309,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 310,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 311,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 312,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 313,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 314,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 315,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 316,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 317,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 318,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 319,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 320,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 321,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 322,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 323,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 324,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 325,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 326,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 327,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 328,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 329,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 330,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 331,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 332,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 333,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 334,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 335,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 336,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 337,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 338,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 339,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 340,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 341,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 342,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 343,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 344,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 345,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 346,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 347,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 348,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 349,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 350,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 351,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 352,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 353,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 354,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 355,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 356,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 357,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 358,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 359,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 360,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 361,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 362,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 363,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 364,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 365,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 366,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 367,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 368,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 369,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 370,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 371,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 372,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 373,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 374,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 375,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 376,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 377,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 378,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 379,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 380,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 381,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 382,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 383,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 384,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 385,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 386,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 387,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 388,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 389,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 390,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 391,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 392,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 393,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 394,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 395,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 396,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 397,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 398,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 399,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 400,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 401,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 402,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 403,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 404,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 405,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 406,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 407,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 408,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 409,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 410,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 411,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 412,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 413,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 414,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 415,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 416,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 417,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 418,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 419,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 420,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 421,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 422,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 423,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 424,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 425,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 426,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 427,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 428,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 429,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 430,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 431,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 432,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 433,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 434,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 435,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 436,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 437,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 438,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 439,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 440,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 441,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 442,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 443,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 444,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 445,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 446,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 447,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 448,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 449,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 450,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 451,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 452,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 453,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 454,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 455,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 456,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 457,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 458,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 459,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 460,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 461,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 462,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 463,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 464,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 465,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 466,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 467,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 468,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 469,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 470,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 471,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 472,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 473,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 474,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 475,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 476,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 477,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 478,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 479,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 480,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 481,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 482,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 483,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 484,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 485,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 486,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 487,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 488,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 489,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 490,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 491,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 492,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 493,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 494,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 495,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 496,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 497,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 498,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 499,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 500,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 501,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 502,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 503,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 504,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 505,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 506,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 507,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 508,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+[{
+  "bug": "",
+  "line": 509,
+  "reason": "No explicit null check for 'b' in the string comparison",
+  "bug": "Null pointer exception in constructor",
+  "line": 510,
+  "reason": "The String class does not have a constructor that takes no parameters."
+}]
+
+]

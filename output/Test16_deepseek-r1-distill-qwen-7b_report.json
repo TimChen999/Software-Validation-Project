@@ -1,0 +1,32 @@
+[
+  {
+    "bug": "Missing null checks in registerUser parameters",
+    "line": 15,
+    "reason": "Parameters passed to registerUser do not include null checks. This can cause NullPointerExceptions if any parameter is null."
+  },
+  {
+    "bug": "Birth date validation missing lenient check",
+    "line": 29,
+    "reason": "The comment indicates the use of lenient(false) but it is commented out, so the validation isn't enforced."
+  },
+  {
+    "bug": "Inadequate phone number validation in registerUser",
+    "line": 54,
+    "reason": "Phone number length check only verifies minimum length (10), but doesn't validate the actual format."
+  },
+  {
+    "bug": "Password comparison using == instead of equals in login",
+    "line": 67,
+    "reason": "Comparing Strings with '==' is incorrect. It should use String.equals() or String.equalsIgnoreCase()."
+  },
+  {
+    "bug": "No validation for null user in update methods",
+    "line": 102,
+    "reason": "updateEmail and updatePhoneNumber do not check if the User object exists before accessing it."
+  },
+  {
+    "bug": "Invalid email format check is too simplistic",
+    "line": 139,
+    "reason": "isValidEmail does not ensure proper email formatting beyond basic checks for @ and ."
+  }
+]

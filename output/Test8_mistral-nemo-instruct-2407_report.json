@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Division by zero",
+    "line": 7,
+    "reason": "Dividing a number by zero is undefined and can lead to unpredictable behavior or exceptions."
+  }
+]

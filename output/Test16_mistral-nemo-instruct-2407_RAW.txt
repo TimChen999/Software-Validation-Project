@@ -1,0 +1,87 @@
+[
+  {
+    "bug": "Inadequate validation and error handling",
+    "line": 40,
+    "reason": "No input validation or exception handling in registration method."
+  },
+  {
+    "bug": "Weak email validation",
+    "line": 58,
+    "reason": "Email validation only checks for '@' symbol, does not validate overall format."
+  },
+  {
+    "bug": "Date parse without lenient(false)",
+    "line": 67,
+    "reason": "SimpleDateFormat.parse() may throw ParseException on malformed dates due to leniency."
+  },
+  {
+    "bug": "No future date validation",
+    "line": 70,
+    "reason": "Birth date is not checked if it's in the future."
+  },
+  {
+    "bug": "Inadequate phone validation",
+    "line": 82,
+    "reason": "Phone number length check does not ensure valid format."
+  },
+  {
+    "bug": "Generic error message without details",
+    "line": 93,
+    "reason": "ParseException is caught but no specific error message is provided to the user."
+  },
+  {
+    "bug": "Exception details swallowed, no logging",
+    "line": 94,
+    "reason": "Details of ParseException are not logged or displayed to the user."
+  },
+  {
+    "bug": "No null checks for parameters",
+    "line": 35,
+    "reason": "No null checks for username, password, email, birthDateStr, and phoneNumber in registerUser method."
+  },
+  {
+    "bug": "Password comparison using == instead of equals",
+    "line": 126,
+    "reason": "Password comparison should use .equals() to compare strings correctly."
+  },
+  {
+    "bug": "Information leakage in error messages",
+    "line": 120,
+    "reason": "Error message reveals if username exists or not, which could be used for brute-force attacks."
+  },
+  {
+    "bug": "Potential NullPointerException",
+    "line": 157,
+    "reason": "No null check on user before updating email, may lead to NullPointerException."
+  },
+  {
+    "bug": "Missing null check on user",
+    "line": 164,
+    "reason": "No null check on user before updating phone number, may lead to NullPointerException."
+  },
+  {
+    "bug": "Overly simplistic email validation",
+    "line": 203,
+    "reason": "Email validation checks only for '@' and '.' symbols but does not validate overall format."
+  },
+  {
+    "bug": "Incorrect regex pattern for phone validation",
+    "line": 216,
+    "reason": "Regex pattern allows exactly 10 digits, but may need to allow country codes or other formats."
+  },
+  {
+    "bug": "String comparison with == will fail",
+    "line": 197,
+    "reason": "== operator compares references, not the content of strings. New String() creates a new object."
+  },
+  {
+    "bug": "No validation for strong password",
+    "line": 240,
+    "reason": "Password 'pass' is too weak but no validation or error message is provided."
+  },
+  {
+    "bug": "No validation for invalid date format",
+    "line": 251,
+    "reason": "Date string '19950731' does not match the expected format 'yyyy-MM-dd'."
+  }
+]

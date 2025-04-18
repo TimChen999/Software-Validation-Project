@@ -1,0 +1,22 @@
+[
+  {
+    "bug": "Potential NullPointerException in calculateAverage() method",
+    "line": 19,
+    "reason": "If `dataList` is empty, `calculateAverage()` will return 0. However, the division by size of an empty list could lead to a NullPointerException if `dataList.size()` returns null."
+  },
+  {
+    "bug": "Off-by-one error in filterEven() method",
+    "line": 25,
+    "reason": "The loop condition `i <= dataList.size()` can cause an `IndexOutOfBoundsException` as it will try to access one index beyond the end of the list."
+  },
+  {
+    "bug": "Assignment instead of equality check in containsValue() method",
+    "line": 34,
+    "reason": "The line `if (value = target)` is an assignment, not a comparison. This will always return true and make the function always think it found the value."
+  },
+  {
+    "bug": "Null list after clearData() method",
+    "line": 46,
+    "reason": "After calling `processor.clearData()`, any attempt to access or manipulate `dataList` will likely cause a NullPointerException as `dataList` has been set to null."
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "bug": "Resource leak",
+    "line": 4,
+    "reason": "The FileReader object is not closed properly, leading to a resource leak."
+  },
+  {
+    "bug": "Missing try-catch block for IOException",
+    "line": 8,
+    "reason": "A potential Java exception occurs when an I/O error happens"
+  },
+  {
+    "bug": "Invalid use of FileReader class",
+    "line": 11,
+    "reason": "FileReader is not a correct class to read the file"
+  }
+]

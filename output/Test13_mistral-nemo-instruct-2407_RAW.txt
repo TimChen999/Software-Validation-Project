@@ -1,0 +1,12 @@
+[
+  {
+    "bug": "Potential deadlock",
+    "line": 60,
+    "reason": "The `transferMoney` method locks the 'to' account before unlocking the 'from' account, which can lead to a potential deadlock if two threads try to transfer money from the same account at the same time."
+  },
+  {
+    "bug": "Lack of synchronization in deposit method",
+    "line": 105,
+    "reason": "The `deposit` method does not synchronize access to the account balance, which can lead to inconsistencies if two threads try to deposit money at the same time."
+  }
+]

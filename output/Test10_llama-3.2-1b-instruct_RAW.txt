@@ -1,0 +1,5 @@
+[] 
+{"bug": "Potential Null Pointer Exception", "line": 15, "reason": "The account object is not checked for null before accessing its methods."}
+{"bug": "NullPointerException", "line": 7, "reason": "The account object is not initialized before being used."}
+{"bug": "Potential Array IndexOutOfBoundsException", "line": 25, "reason": "The amount parameter passed to the deposit and withdraw methods is expected to be an integer but a float value is received instead."}
+["bug": "Potential Arithmetic Exception", "line": 33, "reason": "The balance variable is updated in the deposit method without checking if it's negative or zero before subtracting the withdrawn amount."]

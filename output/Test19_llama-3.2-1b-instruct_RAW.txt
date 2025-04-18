@@ -1,0 +1,1 @@
+[{"bug":"Missing semicolon at the end of for loop","line":1,"reason":"Expected a semicolon after the for loop statement","}], [{"bug":"Infinite loop in reverseString method",line":5,"reason":"Incorrect use of equals operator","}], [{"bug":"Typo in containsIgnoreCase method",line":12,"reason":"Typo in query parameter name"}}]

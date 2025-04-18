@@ -1,0 +1,37 @@
+[
+    {
+        "bug": "The method search(int value) is declared but never implemented.",
+        "line": 21,
+        "reason": "Search method should be implemented."
+    },
+    {
+        "bug": "The method delete(int value) is not correctly deleting nodes from the BST.",
+        "line": 91,
+        "reason": "Delete method is incorrect, it does not handle edge cases like null values or duplicate deletion."
+    },
+    {
+        "bug": "The method insertRec(Node root, int value) should return a Node instead of assigning it directly to the variable root.",
+        "line": 32,
+        "reason": "Method should return a new node and assign it to the root variable."
+    },
+    {
+        "bug": "The method inorder() is not correctly printing numbers in ascending order.",
+        "line": 83,
+        "reason": "Inorder traversal should print numbers from left to right."
+    },
+    {
+        "bug": "The method preorder() is not correctly printing numbers in ascending order.",
+        "line": 85,
+        "reason": "Preorder traversal should print numbers from top to bottom."
+    },
+    {
+        "bug": "The method postorder() is not correctly printing numbers in ascending order.",
+        "line": 87,
+        "reason": "Postorder traversal should print numbers from right to left."
+    },
+    {
+        "bug": "The main method in the BinarySearchTree class does not handle exceptions.",
+        "line": 94,
+        "reason": "Main method should be able to handle any potential exceptions that may occur during execution."
+    }
+]

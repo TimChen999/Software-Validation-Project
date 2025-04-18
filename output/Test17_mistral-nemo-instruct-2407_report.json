@@ -1,0 +1,12 @@
+[
+  {
+    "bug": "Logic error in add method",
+    "line": 4,
+    "reason": "The method is named 'add' but it performs subtraction"
+  },
+  {
+    "bug": "Potential division by zero in divide method",
+    "line": 13,
+    "reason": "No input validation for denominator"
+  }
+]

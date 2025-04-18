@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "The `balance` variable is not thread-safe. This could lead to data races and inconsistencies when multiple threads are depositing or withdrawing money concurrently.",
+    "line": 15,
+    "reason": "Concurrent modifications without synchronization can cause race conditions."
+  }
+]

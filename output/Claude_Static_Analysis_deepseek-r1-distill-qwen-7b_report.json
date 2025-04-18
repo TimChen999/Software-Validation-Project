@@ -1,0 +1,92 @@
+[
+  {
+    "bug": "Missing synchronized keyword",
+    "line": 27,
+    "reason": "increment() lacks synchronization preventing race conditions"
+  },
+  {
+    "bug": "Non-atomic operation causing issues",
+    "line": 39,
+    "reason": "addToTotal uses non-atomic operations which can lead to incorrect results or overflow in some JVMs"
+  },
+  {
+    "bug": "Deadlock potential",
+    "line": 58,
+    "reason": "Potential deadlock if addToTotal is called from multiple threads without proper synchronization"
+  },
+  {
+    "bug": "Race condition on non-atomic operation",
+    "line": 69,
+    "reason": "The code can enter a state where neither thread has completed execution of the synchronized block"
+  },
+  {
+    "bug": "Missing try-finally to ensure unlock",
+    "line": 108,
+    "reason": "DoSomething() may throw an exception that isn't handled by the lock"
+  },
+  {
+    "bug": "Unchecked casts can cause runtime errors",
+    "line": 136,
+    "reason": "Unchecked cast (List<String>) obj may fail if obj is null or unsupported type"
+  },
+  {
+    "bug": "Infinite loop condition",
+    "line": 159,
+    "reason": "Loop condition never changes, leading to potential infinite execution"
+  },
+  {
+    "bug": "Unreachable code",
+    "line": 170,
+    "reason": "This line is unreachable and may not affect program flow but still exists in the source"
+  },
+  {
+    "bug": "SQL injection vulnerability",
+    "line": 25,
+    "reason": "Directly comparing 'name' field without parameterized queries"
+  },
+  {
+    "bug": "Weak cryptography implementation",
+    "line": 39,
+    "reason": "Uses DES which is considered insecure for modern standards and doesn't use a random key"
+  },
+  {
+    "bug": "Path traversal vulnerability",
+    "line": 45,
+    "reason": "Constructs paths dynamically without proper validation or escaping"
+  },
+  {
+    "bug": "Unchecked cast in unsafeCast",
+    "line": 69,
+    "reason": "Unchecked cast can lead to ClassCastException if the target type isn't compatible with the source"
+  },
+  {
+    "bug": "Inefficient string concatenation",
+    "line": 73,
+    "reason": "Using result = result + item is inefficient and slow for large strings"
+  },
+  {
+    "bug": "Thread safety issues",
+    "line": 86,
+    "reason": "sharedMap isn't thread-safe as it's a HashMap which requires synchronization"
+  },
+  {
+    "bug": "Unchecked closeable resources",
+    "line": 90,
+    "reason": "reader.close() is not called after use causing resource leaks"
+  },
+  {
+    "bug": "Empty exception handlers",
+    "line": 115,
+    "reason": " catches FileNotFoundException but doesn't handle it, leading to silent failures"
+  },
+  {
+    "bug": "Integer division truncation",
+    "line": 127,
+    "reason": "Returns truncated result which may not reflect actual mathematical division"
+  },
+  {
+    "bug": "Uninitialized variable",
+    "line": 145,
+    "reason": "result may not be initialized on all paths leading to potential NPEs or incorrect results"
+  }
+]

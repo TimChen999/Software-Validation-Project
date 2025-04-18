@@ -1,0 +1,17 @@
+[
+  {
+    "bug": "Array index out of bounds",
+    "line": 13,
+    "reason": "The code attempts to access `list[10]`, which is outside the valid range of indices for an array of size 10 (0-9)."
+  },
+  {
+    "bug": "Integer overflow",
+    "line": 15,
+    "reason": "Incrementing `Integer.MAX_VALUE` results in integer overflow, leading to unexpected behavior."
+  },
+  {
+    "bug": "Uncaught exception",
+    "line": 19,
+    "reason": "A `RuntimeException` is thrown but not caught or handled, causing the program to terminate abruptly."
+  }
+]

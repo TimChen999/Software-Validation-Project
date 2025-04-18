@@ -1,0 +1,12 @@
+[
+  {
+    "bug": "Off-by-one error in filterEven() loop condition.",
+    "line": 14,
+    "reason": "The loop iterates up to and including dataList.size(), which is one element beyond the valid index range of the list, leading to an ArrayIndexOutOfBoundsException."
+  },
+  {
+    "bug": "Assignment operator used instead of equality operator in containsValue().",
+    "line": 23,
+    "reason": "The code uses '=' for comparison instead of '==' which is the assignment operator. This will cause a compilation error."
+  }
+]

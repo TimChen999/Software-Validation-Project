@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Potential infinite recursion in preorderRec",
+    "line": 314,
+    "reason": "The `preorderRec` function recursively calls itself twice with the same argument (`root.left`), leading to an infinite loop when the tree has a left child."
+  }
+]

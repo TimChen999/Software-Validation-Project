@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Potential for String interning",
+    "line": 7,
+    "reason": "The code uses `new String("test")` twice, which might lead to string interning. If the strings are interned, they will point to the same memory location, causing the comparison to always return true even if the content is different."
+  }
+]

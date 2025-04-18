@@ -1,0 +1,3 @@
+[ 
+{"bug":"Cannot access a null value", "line":15, "reason":"This line is calling getItems() on an instance of ExposedField that has not been initialized"}
+]

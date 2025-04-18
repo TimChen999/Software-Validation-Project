@@ -1,0 +1,12 @@
+[
+  {
+    "bug": "Infinite recursion",
+    "line": 33,
+    "reason": "The factorial method does not have a base case for n < 0."
+  },
+  {
+    "bug": "Null pointer dereference",
+    "line": 62,
+    "reason": "The reverseString method does not handle input string as null properly."
+  }
+]

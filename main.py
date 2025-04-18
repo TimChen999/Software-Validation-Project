@@ -85,7 +85,7 @@ for model_name in MODELS:
 
     with tqdm(total=len(java_files), desc=model_name, unit="file") as progress:
         for java_file in java_files:
-            code = java_file.read_text()
+            code = java_file.read_text(encoding='utf-8')
             prompt = PROMPT_TEMPLATE.format(code=code)
 
             try:

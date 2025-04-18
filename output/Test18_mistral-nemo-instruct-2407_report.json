@@ -1,0 +1,12 @@
+[
+  {
+    "bug": "Out of bounds exception in findMax",
+    "line": 34,
+    "reason": "The loop condition checks if i is less than or equal to data.length, but the last index in a zero-based array is data.length - 1"
+  },
+  {
+    "bug": "Incorrect length for reversed array",
+    "line": 52,
+    "reason": "The reversed array should have the same length as the original data array, but it's initialized with one more element than necessary"
+  }
+]

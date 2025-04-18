@@ -1,0 +1,12 @@
+[
+  {
+    "bug": "Incorrect implementation of the add method",
+    "line": 6,
+    "reason": "The `add` method subtracts instead of adding."
+  },
+  {
+    "bug": "Incorrect implementation of the multiply method",
+    "line": 14,
+    "reason": "The `multiply` method uses a loop that iterates 'a' times and adds 'b' to the result in each iteration. This is not a standard multiplication operation."
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "String literal must be enclosed within double quotes or single quotes",
+    "line": 3,
+    "reason": "The string literals in the code are not properly enclosed within quotes."
+  }
+]

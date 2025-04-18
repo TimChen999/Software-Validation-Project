@@ -1,0 +1,27 @@
+[
+  {
+    "bug": "Null Pointer Exception",
+    "line": 7,
+    "reason": "Variable 'name' is accessed before it's initialized"
+  },
+  {
+    "bug": "Array Index Out of Bounds",
+    "line": 10,
+    "reason": "Trying to access index 10 in an array of size 10"
+  },
+  {
+    "bug": "Integer Overflow",
+    "line": 13,
+    "reason": "Attempting to increase the maximum value of an integer"
+  },
+  {
+    "bug": "Infinite Loop",
+    "line": 16,
+    "reason": "Condition in for loop is always true"
+  },
+  {
+    "bug": "Unhandled Exception",
+    "line": 20,
+    "reason": "The program terminates abruptly without any exception handling mechanism"
+  }
+]

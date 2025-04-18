@@ -1,0 +1,12 @@
+[
+  {
+    "bug": "Infinite loop",
+    "line": 6,
+    "reason": "Loop condition is always true"
+  },
+  {
+    "bug": "ArrayIndexOutOfBoundsException",
+    "line": 7,
+    "reason": "Accessing an index out of array bounds"
+  }
+]

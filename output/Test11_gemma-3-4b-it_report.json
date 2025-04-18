@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "External modification of the internal state",
+    "line": 14,
+    "reason": "The `getItems()` method is called and then cleared externally, modifying the internal list 'items' without proper synchronization or encapsulation."
+  }
+]

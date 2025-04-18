@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Variable name collision",
+    "line": 9,
+    "reason": "The variable 'result' and 'resRes' have the same name, which can lead to confusion and potential errors."
+  }
+]

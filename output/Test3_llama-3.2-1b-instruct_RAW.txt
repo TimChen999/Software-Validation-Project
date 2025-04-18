@@ -1,0 +1,3 @@
+[
+{"bug":"Null Pointer Exception","line":1,"reason":"NullPointerException when trying to access 'length' on a null object.","user":{"bug":"Null Pointer Exception","line":2,"reason":"Trying to call 'length()' on a null object."}}
+]

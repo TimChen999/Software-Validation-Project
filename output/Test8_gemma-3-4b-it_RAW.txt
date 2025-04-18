@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Division by zero",
+    "line": 6,
+    "reason": "The `compute` method divides `a` by `b`. When `b` is 0, a division by zero error occurs."
+  }
+]

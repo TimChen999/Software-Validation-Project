@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "ArrayIndexOutOfBoundsException",
+    "line": 8,
+    "reason": "The loop iterates one element too far, resulting in an attempt to access `numbers` at index `numbers.length`, which is out of bounds."
+  }
+]

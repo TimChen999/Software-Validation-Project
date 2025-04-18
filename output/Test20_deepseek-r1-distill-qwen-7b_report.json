@@ -1,0 +1,17 @@
+[
+  {
+    "bug": "In the method `filterEven`, the for loop condition is incorrect.",
+    "line": 10,
+    "reason": "The loop runs from i=0 to i<=dataList.size(), which attempts to access an index beyond the list bounds."
+  },
+  {
+    "bug": "In the method `containsValue`, there's a syntax error in the assignment operator.",
+    "line": 14,
+    "reason": "The code uses 'value = target' instead of 'value == target'. This is a compile-time error and should be replaced with an equality check."
+  },
+  {
+    "bug": "In `calculateAverage`, integer division may occur if not handled properly.",
+    "line": 7,
+    "reason": "The sum is an int, divided by size which are both integers. The result could be an integer due to truncation instead of a double."
+  }
+]

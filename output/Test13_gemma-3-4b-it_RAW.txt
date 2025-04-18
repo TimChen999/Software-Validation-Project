@@ -1,0 +1,17 @@
+[
+  {
+    "bug": "Missing synchronization on `accounts` map access in `transferMoney`, `deposit`, and `withdraw` methods.",
+    "line": 36,
+    "reason": "Multiple threads can simultaneously access and modify the `accounts` map, leading to race conditions and incorrect balance updates."
+  },
+  {
+    "bug": "Lack of proper error handling for account not found in `getBalance` method.",
+    "line": 87,
+    "reason": "If an account with the specified ID does not exist, an `IllegalArgumentException` is thrown. This could be handled more gracefully (e.g., returning null or a default value)."
+  },
+  {
+    "bug": "No check for duplicate account creation in `createAccount`.",
+    "line": 43,
+    "reason": "The code checks if the account already exists but doesn't handle the exception appropriately. It should either throw an exception or return a boolean indicating success/failure."
+  }
+]

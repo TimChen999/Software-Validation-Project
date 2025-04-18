@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "The `getItems()` method should return an immutable view of the internal list.",
+    "line": 7,
+    "reason": "Returning a mutable reference violates encapsulation and allows external code to modify the internal state."
+  }
+]

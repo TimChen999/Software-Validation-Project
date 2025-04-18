@@ -1,0 +1,77 @@
+[
+  {
+    "bug": "NULL POINTER DEREFERENCE",
+    "line": 14,
+    "reason": "Potential null pointer dereference in the method `nullDereference`."
+  },
+  {
+    "bug": "RESOURCE LEAKS",
+    "line": 32,
+    "reason": "Missing file close() call in `resourceLeak()` method."
+  },
+  {
+    "bug": "CONCURRENCY BUGS",
+    "line": 48,
+    "reason": "Missing synchronized keyword on `increment` method."
+  },
+  {
+    "bug": "ARRAY INDEX BUGS",
+    "line": 54,
+    "reason": "Off-by-one error in the `arrayBoundsBug` method."
+  },
+  {
+    "bug": "INTEGER BUGS",
+    "line": 58,
+    "reason": "Potential integer overflow in the `integerOverflow` method."
+  },
+  {
+    "bug": "SECURITY VULNERABILITIES",
+    "line": 70,
+    "reason": "SQL Injection vulnerability in `sqlInjection` method."
+  },
+  {
+    "bug": "SERIALIZATION BUGS",
+    "line": 80,
+    "reason": "Non-serializable field in serializable class."
+  },
+  {
+    "bug": "PERFORMANCE ISSUES",
+    "line": 94,
+    "reason": "Inefficient string concatenation in the `inefficientStringConcatenation` method."
+  },
+  {
+    "bug": "THREAD SAFETY ISSUES",
+    "line": 116,
+    "reason": "HashMap is not thread-safe in the `threadUnsafeMap` class."
+  },
+  {
+    "bug": "EQUALS/HASHCODE CONTRACT",
+    "line": 124,
+    "reason": "Missing matching hashCode() implementation."
+  },
+  {
+    "bug": "UNCLOSED CLOSEABLE RESOURCES",
+    "line": 132,
+    "reason": "Missing reader.close() call in the `readFileLines` method."
+  },
+  {
+    "bug": "EMPTY EXCEPTION HANDLERS",
+    "line": 136,
+    "reason": "Empty catch block swallows exception."
+  },
+  {
+    "bug": "UNUSED VARIABLES",
+    "line": 148,
+    "reason": "Unused variables in the `unusedVariables` method."
+  },
+  {
+    "bug": "INTEGER DIVISION TRUNCATION",
+    "line": 162,
+    "reason": "Integer division will truncate."
+  },
+  {
+    "bug": "UNINITIALIZED VARIABLES",
+    "line": 166,
+    "reason": "Uninitialized variable in the `inicializedVariable` method."
+  }
+]

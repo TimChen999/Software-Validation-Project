@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "ArrayIndexOutOfBoundsException",
+    "line": 1,
+    "reason": "should use less than instead of greater than"
+  }
+]

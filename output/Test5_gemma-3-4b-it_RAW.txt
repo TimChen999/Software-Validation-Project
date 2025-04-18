@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Infinite loop",
+    "line": 6,
+    "reason": "The condition `i >= 0` will always be true because `i` is initialized to 0 and incremented in each iteration. This creates an infinite loop."
+  }
+]

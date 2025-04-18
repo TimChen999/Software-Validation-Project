@@ -1,0 +1,22 @@
+[
+  {
+    "bug": "Off-by-one error in the constructor's loop.",
+    "line": 8,
+    "reason": "The loop iterates from `i = 1` to `size`, resulting in an out-of-bounds access when assigning values to `data[i - 1]`. The correct range should be `i = 0` to `size - 1`."
+  },
+  {
+    "bug": "Off-by-one error in the findMax() method.",
+    "line": 15,
+    "reason": "The loop iterates from `i = 0` to `data.length`, which is one element too far. This leads to an ArrayIndexOutOfBoundsException when accessing `data[data.length]`."
+  },
+  {
+    "bug": "Incorrect logic in sumEvenNumbers() method.",
+    "line": 25,
+    "reason": "The condition `data[i] / 2 == 0` checks if a number is even by dividing it by 2 and comparing the result to 0. This will not work for numbers that are divisible by 2 but have remainders when divided by 2."
+  },
+  {
+    "bug": "Potential ArrayIndexOutOfBoundsException in reverseArray() method.",
+    "line": 37,
+    "reason": "The loop iterates from `i = 0` to `data.length - 1`. When `i` is equal to `data.length`, the expression `data[data.length - 1 - i]` attempts to access an element beyond the bounds of the original array."
+  }
+]
