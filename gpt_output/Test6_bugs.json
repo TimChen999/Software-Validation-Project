@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Incorrect string comparison",
+    "line": 4,
+    "reason": "Using '==' compares object references instead of string content; use 'a.equals(b)' for content comparison"
+  }
+]

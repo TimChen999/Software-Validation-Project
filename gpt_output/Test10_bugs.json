@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Race condition on shared resource 'balance'",
+    "line": 7,
+    "reason": "Concurrent access to 'balance' without synchronization can lead to inconsistent or incorrect final balance"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "bug": "Missing null checks in registerUser parameters",
+    "line": 39,
+    "reason": "No null checks for input parameters; can cause NullPointerException"
+  },
+  {
+    "bug": "Weak email validation logic",
+    "line": 51,
+    "reason": "Using simple contains('@') check instead of robust email regex"
+  },
+  {
+    "bug": "SimpleDateFormat is not set to non-lenient mode",
+    "line": 55,
+    "reason": "Lenient parsing can allow invalid date formats"
+  },
+  {
+    "bug": "No validation for future birth dates",
+    "line": 56,
+    "reason": "Future dates can be accepted without any check"
+  },
+  {
+    "bug": "Swallowed exception details in catch block",
+    "line": 67,
+    "reason": "Generic error message without logging or reporting exception details"
+  },
+  {
+    "bug": "Password comparison uses '==' instead of equals()",
+    "line": 85,
+    "reason": "'==' compares object references, not string content"
+  },
+  {
+    "bug": "NullPointerException risk in updateEmail",
+    "line": 95,
+    "reason": "No null check before accessing user.email"
+  },
+  {
+    "bug": "Overly simplistic email validation in isValidEmail",
+    "line": 107,
+    "reason": "Validation only checks for '@' and '.', which is not sufficient"
+  },
+  {
+    "bug": "Incorrect regex for phone number validation",
+    "line": 113,
+    "reason": "Regex only allows exactly 10 digits, excluding valid formats with dashes, parentheses, etc."
+  }
+]

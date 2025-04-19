@@ -1,0 +1,17 @@
+[
+  {
+    "bug": "Potential deadlock in transferMoney",
+    "line": 37,
+    "reason": "Locks are acquired in nested fashion without ordering, which can lead to deadlocks if two threads try to transfer in opposite directions simultaneously"
+  },
+  {
+    "bug": "Lack of synchronization in deposit method",
+    "line": 66,
+    "reason": "Deposit directly modifies shared state 'balance' without locking, leading to race conditions"
+  },
+  {
+    "bug": "Lack of synchronization in applyInterest",
+    "line": 99,
+    "reason": "applyInterest modifies 'balance' without any locking, which can cause data races"
+  }
+]

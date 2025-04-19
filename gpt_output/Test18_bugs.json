@@ -1,0 +1,22 @@
+[
+  {
+    "bug": "ArrayIndexOutOfBoundsException in findMax",
+    "line": 14,
+    "reason": "Loop condition should be i < data.length; using i <= data.length will access out-of-bounds index"
+  },
+  {
+    "bug": "Incorrect even number check in sumEvenNumbers",
+    "line": 21,
+    "reason": "Condition 'data[i] / 2 == 0' checks if number is less than 2, not if it's even; should use 'data[i] % 2 == 0'"
+  },
+  {
+    "bug": "Incorrect array size in reverseArray",
+    "line": 27,
+    "reason": "Reversed array has extra element due to incorrect length; should match original array's length"
+  },
+  {
+    "bug": "setValue does not allow setting value at index 0",
+    "line": 33,
+    "reason": "Condition 'index > 0' prevents modifying the first element of the array"
+  }
+]

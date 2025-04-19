@@ -1,0 +1,12 @@
+[
+  {
+    "bug": "Unhandled IOException",
+    "line": 7,
+    "reason": "FileReader constructor and read methods can throw IOException, but no try-catch or throws declaration is used"
+  },
+  {
+    "bug": "Resource not closed safely",
+    "line": 13,
+    "reason": "FileReader is closed without a finally block or try-with-resources, which may lead to resource leak if an exception occurs"
+  }
+]

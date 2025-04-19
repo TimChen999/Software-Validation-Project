@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Possible infinite loop",
+    "line": 4,
+    "reason": "Loop condition 'i >= 0' will always be true as 'i' keeps increasing, leading to an infinite loop"
+  }
+]

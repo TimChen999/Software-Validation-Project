@@ -1,0 +1,22 @@
+[
+  {
+    "bug": "Integer division in calculateAverage",
+    "line": 18,
+    "reason": "Division of two integers returns integer; result should be cast to double to preserve fractional part"
+  },
+  {
+    "bug": "ArrayIndexOutOfBoundsException in filterEven",
+    "line": 23,
+    "reason": "Loop should run while i < dataList.size(); using i <= dataList.size() accesses invalid index"
+  },
+  {
+    "bug": "Syntax error in containsValue method",
+    "line": 29,
+    "reason": "Assignment '=' used instead of comparison '==' in if condition"
+  },
+  {
+    "bug": "Setting dataList to null in clearData",
+    "line": 34,
+    "reason": "Setting list to null may cause NullPointerException if accessed later"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Possible NullPointerException",
+    "line": 3,
+    "reason": "Calling length() on a null String reference 'user' will throw a NullPointerException"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Unused variable",
+    "line": 4,
+    "reason": "Variable 'resRes' is declared but never used"
+  }
+]

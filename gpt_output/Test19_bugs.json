@@ -1,0 +1,37 @@
+[
+  {
+    "bug": "StringIndexOutOfBoundsException in concatenate",
+    "line": 6,
+    "reason": "Loop starts at 1 instead of 0; accessing str1.charAt(i) will throw exception at i = str1.length()"
+  },
+  {
+    "bug": "Incorrect case-insensitive search in containsIgnoreCase",
+    "line": 11,
+    "reason": "Only query is converted to lowercase; should convert both text and query for case-insensitive match"
+  },
+  {
+    "bug": "StringIndexOutOfBoundsException in reverseString",
+    "line": 17,
+    "reason": "Index calculation uses '+1', which can exceed string bounds"
+  },
+  {
+    "bug": "Syntax error in countOccurrences",
+    "line": 23,
+    "reason": "Assignment '=' used instead of comparison '==' in if condition"
+  },
+  {
+    "bug": "Incorrect count initialization in countOccurrences",
+    "line": 22,
+    "reason": "Count should start at 0, not 1"
+  },
+  {
+    "bug": "Incorrect behavior in trimAndLower",
+    "line": 29,
+    "reason": "Returns uppercased text instead of lowercased; violates method name intent"
+  },
+  {
+    "bug": "Method call to undefined equalsIgnoreCase",
+    "line": 33,
+    "reason": "StringManipulator does not define equalsIgnoreCase; should call containsIgnoreCase"
+  }
+]

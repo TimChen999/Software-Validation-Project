@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Exposed internal mutable field",
+    "line": 10,
+    "reason": "Method getItems() exposes internal mutable List, allowing external code to modify internal state"
+  }
+]

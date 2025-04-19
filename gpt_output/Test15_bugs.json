@@ -1,0 +1,32 @@
+[
+  {
+    "bug": "ArrayIndexOutOfBoundsException in bubbleSort",
+    "line": 15,
+    "reason": "Inner loop runs until j < arr.length, so arr[j + 1] can go out of bounds"
+  },
+  {
+    "bug": "Incorrect logic in gcd",
+    "line": 63,
+    "reason": "After 'b = a % b;', 'a' is set to 'b' which was just updated, leading to incorrect computation"
+  },
+  {
+    "bug": "Inefficient string concatenation in reverseString",
+    "line": 95,
+    "reason": "Using '+' in loop creates many temporary strings; StringBuilder should be used instead"
+  },
+  {
+    "bug": "ArrayIndexOutOfBoundsException in mergeSortedArrays",
+    "line": 112,
+    "reason": "Loop condition should be i < arr1.length; using i <= arr1.length can go out of bounds"
+  },
+  {
+    "bug": "ArrayIndexOutOfBoundsException in maxSubarraySum",
+    "line": 131,
+    "reason": "Loop condition should be i < arr.length; using i <= arr.length causes out-of-bounds access"
+  },
+  {
+    "bug": "Incorrect swap logic in partition method",
+    "line": 157,
+    "reason": "Swapping arr[high] with arr[i] directly overwrites pivot; should swap using a temp variable"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Possible NullPointerException during authentication",
+    "line": 13,
+    "reason": "users.get(username) may return null if username doesn't exist, and calling equals() on null will throw NullPointerException"
+  }
+]

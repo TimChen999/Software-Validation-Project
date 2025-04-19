@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "ArrayIndexOutOfBoundsException",
+    "line": 4,
+    "reason": "Loop condition should be i < numbers.length; using i <= numbers.length accesses an invalid index"
+  }
+]

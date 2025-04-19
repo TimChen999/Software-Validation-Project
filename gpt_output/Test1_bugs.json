@@ -1,0 +1,27 @@
+[
+  {
+    "bug": "Possible NullPointerException when accessing 'name'",
+    "line": 8,
+    "reason": "'name' is never initialized before calling length(), which can cause a NullPointerException"
+  },
+  {
+    "bug": "ArrayIndexOutOfBoundsException",
+    "line": 15,
+    "reason": "Accessing index 10 in an array of size 10 is invalid; valid indices are 0 to 9"
+  },
+  {
+    "bug": "Integer overflow",
+    "line": 17,
+    "reason": "Incrementing Integer.MAX_VALUE wraps around to Integer.MIN_VALUE"
+  },
+  {
+    "bug": "Infinite loop",
+    "line": 20,
+    "reason": "The for-loop lacks an increment operation, resulting in an infinite loop"
+  },
+  {
+    "bug": "Unhandled exception",
+    "line": 24,
+    "reason": "The program throws a RuntimeException without handling it, which will crash the program"
+  }
+]

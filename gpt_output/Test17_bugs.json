@@ -1,0 +1,12 @@
+[
+  {
+    "bug": "Incorrect implementation of add method",
+    "line": 4,
+    "reason": "Method subtracts instead of adding; should return a + b"
+  },
+  {
+    "bug": "Missing edge case handling in factorial",
+    "line": 18,
+    "reason": "No validation for negative input; factorial of negative numbers is undefined"
+  }
+]

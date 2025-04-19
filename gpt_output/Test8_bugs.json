@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Division by zero",
+    "line": 3,
+    "reason": "Method compute divides 'a' by 'b' without checking if 'b' is zero, leading to ArithmeticException"
+  }
+]

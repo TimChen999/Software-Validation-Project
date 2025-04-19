@@ -1,0 +1,7 @@
+[
+  {
+    "bug": "Incorrect recursive call in preorder traversal",
+    "line": 108,
+    "reason": "preorderRec is called twice on root.left; the second call should be on root.right"
+  }
+]
