@@ -1,0 +1,98 @@
+VAL-Project:src/main/java/Test1.java | Line 5: Add a private constructor to hide the implicit public one.
+VAL-Project:src/main/java/Test1.java | Line 9: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test1.java | Line 10: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test1.java | Line 18: Change this instance-reference to a static reference.
+VAL-Project:src/main/java/Test1.java | Line 24: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test1.java | Line 27: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test1.java | Line 30: Define and throw a dedicated exception instead of using a generic one.
+VAL-Project:src/main/java/Test10.java | Line 3: Remove this unused import 'java.util.concurrent'.
+VAL-Project:src/main/java/Test10.java | Line 48: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test11.java | Line 24: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test12.java | Line 101: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test12.java | Line 107: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test12.java | Line 114: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test12.java | Line 119: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test12.java | Line 127: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test12.java | Line 136: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test12.java | Line 179: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test12.java | Line 182: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test12.java | Line 183: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test12.java | Line 186: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test12.java | Line 190: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test12.java | Line 194: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test13.java | Line 32: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test13.java | Line 58: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test13.java | Line 79: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test13.java | Line 100: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test13.java | Line 129: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test13.java | Line 156: Use try-with-resources or close this "ExecutorService" in a "finally" clause.
+VAL-Project:src/main/java/Test13.java | Line 178: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test13.java | Line 179: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test13.java | Line 181: Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.
+VAL-Project:src/main/java/Test13.java | Line 183: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test15.java | Line 70: Remove this unused "temp" local variable.
+VAL-Project:src/main/java/Test15.java | Line 70: Remove this useless assignment to local variable "temp".
+VAL-Project:src/main/java/Test15.java | Line 124: Use a StringBuilder instead.
+VAL-Project:src/main/java/Test15.java | Line 135: Declare "j" and all following declarations on a separate line.
+VAL-Project:src/main/java/Test15.java | Line 213: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test15.java | Line 215: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test15.java | Line 217: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test15.java | Line 218: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test16.java | Line 59: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test16.java | Line 65: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test16.java | Line 71: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test16.java | Line 85: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test16.java | Line 91: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test16.java | Line 95: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test16.java | Line 111: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test16.java | Line 116: Strings and Boxed types should be compared using "equals()".
+VAL-Project:src/main/java/Test16.java | Line 117: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test16.java | Line 120: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test16.java | Line 132: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test16.java | Line 147: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test16.java | Line 149: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test16.java | Line 153: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test16.java | Line 181: Define a constant instead of duplicating this literal "password123" 3 times.
+VAL-Project:src/main/java/Test16.java | Line 181: Define a constant instead of duplicating this literal "johndoe" 4 times.
+VAL-Project:src/main/java/Test16.java | Line 196: Remove this "String" constructor
+VAL-Project:src/main/java/Test17.java | Line 32: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test17.java | Line 33: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test17.java | Line 34: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test17.java | Line 35: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test18.java | Line 53: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test18.java | Line 54: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test18.java | Line 55: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test18.java | Line 56: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test18.java | Line 58: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test19.java | Line 9: Use a StringBuilder instead.
+VAL-Project:src/main/java/Test19.java | Line 46: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test19.java | Line 47: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test19.java | Line 49: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test19.java | Line 50: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test19.java | Line 51: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test2.java | Line 7: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test20.java | Line 20: Use isEmpty() to check whether the collection is empty or not.
+VAL-Project:src/main/java/Test20.java | Line 27: Cast one of the operands of this division operation to a "double".
+VAL-Project:src/main/java/Test20.java | Line 60: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test20.java | Line 61: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test20.java | Line 62: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test20.java | Line 63: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test3.java | Line 6: A "NullPointerException" could be thrown; "user" is nullable here.
+VAL-Project:src/main/java/Test3.java | Line 7: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test4.java | Line 6: Remove this unused "resRes" local variable.
+VAL-Project:src/main/java/Test4.java | Line 6: Remove this useless assignment to local variable "resRes".
+VAL-Project:src/main/java/Test4.java | Line 7: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test5.java | Line 7: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test6.java | Line 5: Remove this "String" constructor
+VAL-Project:src/main/java/Test6.java | Line 6: Remove this "String" constructor
+VAL-Project:src/main/java/Test6.java | Line 7: Strings and Boxed types should be compared using "equals()".
+VAL-Project:src/main/java/Test6.java | Line 8: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test6.java | Line 10: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test7.java | Line 8: Remove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.
+VAL-Project:src/main/java/Test7.java | Line 10: Use try-with-resources or close this "FileReader" in a "finally" clause.
+VAL-Project:src/main/java/Test7.java | Line 13: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test8.java | Line 9: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test9.java | Line 13: Replace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".
+VAL-Project:src/main/java/Test9.java | Line 29: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test9.java | Line 40: Replace this use of System.out by a logger.
+VAL-Project:src/main/java/Test9.java | Line 42: Replace this use of System.out by a logger.

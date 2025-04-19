@@ -1,0 +1,50 @@
+package main.java;
+
+import java.util.concurrent.*;
+
+public class Test10 {
+    private int balance;
+
+    public Test10(int initialBalance) {
+        this.balance = initialBalance;
+    }
+
+    public void deposit(int amount) {
+        balance += amount;
+    }
+
+    public void withdraw(int amount) {
+        if (balance >= amount) {
+            balance -= amount;
+        }
+    }
+
+    public int getBalance() {
+        return balance;
+    }
+
+    public static void main(String[] args) throws InterruptedException {
+        Test10 account = new Test10(1000);
+
+        Runnable depositTask = () -> {
+            for (int i = 0; i < 1000; i++) {
+                account.deposit(1);
+            }
+        };
+
+        Runnable withdrawTask = () -> {
+            for (int i = 0; i < 1000; i++) {
+                account.withdraw(1);
+            }
+        };
+
+        Thread t1 = new Thread(depositTask);
+        Thread t2 = new Thread(withdrawTask);
+        t1.start();
+        t2.start();
+        t1.join();
+        t2.join();
+
+        System.out.println("Final Balance: " + account.getBalance());
+    }
+}

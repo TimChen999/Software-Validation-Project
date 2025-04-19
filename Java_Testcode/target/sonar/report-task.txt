@@ -1,0 +1,6 @@
+projectKey=VAL-Project
+serverUrl=http://localhost:9000
+serverVersion=10.6.0.92116
+dashboardUrl=http://localhost:9000/dashboard?id=VAL-Project
+ceTaskId=19d85038-caba-4979-8c5d-a6dcf48a0c95
+ceTaskUrl=http://localhost:9000/api/ce/task?id=19d85038-caba-4979-8c5d-a6dcf48a0c95
